@@ -44,6 +44,7 @@
     header p {
       font-size: 1.2em;
       margin-top: 10px;
+      text-align: center;
     }
 
     .btn {
@@ -66,7 +67,13 @@
     h2 {
       font-size: 2em;
       margin-bottom: 10px;
+      text-align: center;
     }
+
+    p {
+  text-align: justify;
+    }
+
 
     .features, .steps {
       display: flex;
@@ -157,6 +164,12 @@
       font-size: 0.9em;
     }
 
+    .center-btn {
+      display: block;
+      width: fit-content;
+      margin: 20px auto;
+    }
+
     @media (max-width: 700px) {
       header h1 {
         font-size: 2em;
@@ -190,7 +203,7 @@
 <section style="margin-top: 40px;">
 <h2>What is Futbot Fantasy?</h2>
 </div>
-<h3>Dive into the excitement of fantasy football! Build your dream squad, rack up points as your players shine on the field, and go head-to-head with other users. The higher your score, the cooler the rewards you unlock!</h3>
+<h3>Dive into the excitement of fantasy football! Build your dream combination of players, rack up points as your players shine on the field, and go head-to-head with other users. The higher your score, the cooler the rewards you unlock!</h3>
 <div class="features">
 <div class="card" onmouseout="this.style.transform='scale(1)';" onmouseover="this.style.transform='scale(1.02)';" style="transition: transform 0.3s;">
 <h3>⚽ Squad Creation</h3>
@@ -228,11 +241,9 @@
       <p>Click the button below to join our server<p>
       </div>
       </ol>
-      <a class="btn" href="https://discord.com/invite/BBZBZQQBqP">Join the FutBot Server</a>
+      <a class="btn center-btn" href="https://discord.com/invite/BBZBZQQBqP">Join the FutBot Server</a>
     </div>
-  </div>
 </section>
-</div>
 </div>
 </section>
 <section style="margin-top: 40px;">
@@ -249,8 +260,8 @@
 <!-- <img alt="FutBot in Barcelona's Discord Server" src="images/barça.png" style="display:block; max-width: 600px; border-radius: 6px; margin: 0 auto 10px; margin-bottom: 10px;"/> </div> -->
 </div>
 <div class="card" onmouseout="this.style.transform='scale(1)';" onmouseover="this.style.transform='scale(1.02)';" style="transition: transform 0.3s;">
-<h3>2. Select your Squad</h3>
-<p>Pick your dream lineup: a defender, midfielder, and forward, plus one trusty substitute from the bench. Your team, your strategy, your points!</p>
+<h3>2. Select your combination of players</h3>
+<p>Before the beginning of the match pick your dream lineup: a defender, midfielder, and forward, plus one trusty substitute from the bench. Your team, your strategy, your points!</p>
 <img 
   alt="FutBot in Barcelona's Discord Server" 
   src="images/selection.png" 
@@ -285,7 +296,7 @@
     />
     <!-- <img alt="FutBot in Barcelona's Discord Server" src="images/barça.png" style="display:block; max-width: 600px; border-radius: 6px; margin: 0 auto 10px; margin-bottom: 10px;"/> </div> -->
     <ul>
-      <li>Goals → Each goal earns 5 points for strikers, 6 points for midfielders, and 7 points for defenders.</li>
+      <li>Goals → Each goal earns 5 points for forwards (FW), 6 points for midfielders (MF), and 7 points for defenders (DF).</li>
       <li>Assists → Each assist earns 3 points for strikers, 4 points for midfielders, and 5 points for defenders.</li>
       <li>Tackles → Players earn 2 points for every 2 successful tackles.</li>
       <li>Successful Passes → Players earn 2 points for every 50 successful passes.</li>
@@ -345,6 +356,8 @@
 </div>
 </div>
 </section>
+</ol>
+  <a class="btn center-btn" href="https://discord.com/invite/BBZBZQQBqP">Join the FutBot Server</a>
 <section style="margin-top: 40px;">
 <h2>Need Help?</h2>
 <div class="features">
